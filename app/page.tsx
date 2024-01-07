@@ -2,6 +2,8 @@ import Image from 'next/image'
 
 "use client"
 
+import { Button } from '@/components/ui/button'
+
 export default function Home() {
    // all logic here
    
@@ -13,8 +15,8 @@ const handleClick = () => {
     <div>
       {/* css html: tsx  */}
       Software engineering club
-      
-      <button onClick={handleClick}>click me </button>
+      <br />
+      <Button onClick={handleClick}>click me </Button>
     </div>
   )
 }
