@@ -4,6 +4,21 @@ import Image from 'next/image'
 
 import { Button } from '@/components/ui/button'
 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdownbutton"
+
 export default function Home() {
    // all logic here
    
@@ -14,9 +29,14 @@ const handleClick = () => {
   return (
     <div>
       {/* css html: tsx  */}
-      Software engineering club
-      <br />
-      <Button onClick={handleClick}>click me </Button>
-    </div>
+      <center>
+      Welcome to the Software Engineering Club main page!
+      <br /><br />
+      <Button onClick={handleClick}>Click Me</Button>
+
+      </center>      
+    </div>    
   )
 }
+
+
