@@ -23,27 +23,28 @@ const handleClick = () => {
     <div className='p-6 pt-28'>
       {/* css html: tsx  */}
       <center>
-      Welcome to the Software Engineering Club main page!
-      <br /><br />
-      <Button onClick={handleClick}>Click Me</Button>
+      Welcome!
       </center>
 
       <div className='p-6 pt-4'>
       <Card>
         <CardHeader>
-          <CardTitle>Main Page</CardTitle>
+          <CardTitle>Test Main Page Card</CardTitle>
           <CardDescription>The home page of the Software Engineering Club Website.</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Test page work in progress, still incomplete.
-          </p>
+          <p>Test page work in progress, still incomplete.</p>
+          <div className='p-0 pt-2'>
+          <Button onClick={handleClick}>Test Clickable Button</Button>                  
+        </div>          
         </CardContent>
         <CardFooter>
-          <p>Footer</p>
+          <p>Test Footer</p>
         </CardFooter>
       </Card>
       </div>
     </div>    
+    
   )
 }
 
