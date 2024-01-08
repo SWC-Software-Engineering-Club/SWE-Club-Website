@@ -27,7 +27,7 @@ const handleClick = () => {
 }
 
   return (
-    <div>
+    <div className='p-6 pt-20'>
       {/* css html: tsx  */}
       <center>
       Welcome to the Software Engineering Club main page!
