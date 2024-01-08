@@ -6,10 +6,6 @@ import { Check, ChevronRight, Circle } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
-// Define color variables
-const buttonBackgroundColor = "bg-accent"; // Change to your desired background color
-const buttonTextColor = "text-accent-foreground"; // Change to your desired text color
-
 const DropdownMenu = DropdownMenuPrimitive.Root;
 
 const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;
@@ -84,8 +80,8 @@ const DropdownMenuItem = React.forwardRef(
       ref={ref}
       className={cn(
         "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
-        buttonBackgroundColor,
-        buttonTextColor,
+        "bg-accent",
+        "text-accent-foreground",
         inset && "pl-8",
         className
       )}
