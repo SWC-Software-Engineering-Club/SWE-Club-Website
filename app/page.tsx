@@ -35,7 +35,7 @@ const handleClick = () => {
       <Button onClick={handleClick}>Click Me</Button>
       </center>
 
-      <div className="absolute top-0 right-0">
+      <div className="absolute top-2 right-2">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline">Menu</Button>
@@ -46,19 +46,15 @@ const handleClick = () => {
           <DropdownMenuGroup>
             <DropdownMenuItem>
               Profile
-              <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
             </DropdownMenuItem>
             <DropdownMenuItem>
               Billing
-              <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
             </DropdownMenuItem>
             <DropdownMenuItem>
               Settings
-              <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
             </DropdownMenuItem>
             <DropdownMenuItem>
               Keyboard shortcuts
-              <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
             </DropdownMenuItem>
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
@@ -77,7 +73,6 @@ const handleClick = () => {
             </DropdownMenuSub>
             <DropdownMenuItem>
               New Team
-              <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
             </DropdownMenuItem>
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
@@ -87,7 +82,6 @@ const handleClick = () => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             Log out
-            <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>      
