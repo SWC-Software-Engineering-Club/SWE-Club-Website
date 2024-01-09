@@ -1,6 +1,5 @@
-import Image from 'next/image'
-
 "use client"
+import Image from 'next/image'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -19,33 +18,35 @@ const handleClick = () => {
   console.log("clicked")
 }
 
-  return (
-    <div className='p-6 pt-28'>
-      {/* css html: tsx  */}
-      <center>
-      Welcome!
-      </center>
+return (
+  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+    <div className="max-w-3xl space-y-7 text-center">
+      <span>Software Engineering Club</span>
+      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
+        Where CS Students of Southwestern College get ahead.
+      </h1>
+      <h3 className="text-base sm:text-xl md:text-2xl font-medium">
+        Where SWC CS students can network, gain hands-on experience, and get ahead.
+      </h3>
+      <Button onClick={handleClick}>Apply</Button> <Button onClick={handleClick}>About Us</Button>        
 
-      <div className='p-6 pt-4'>
-      <Card>
-        <CardHeader>
-          <CardTitle>Test Main Page Card</CardTitle>
-          <CardDescription>The home page of the Software Engineering Club Website.</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p>Test page work in progress, still incomplete.</p>
-          <div className='p-0 pt-2'>
-          <Button onClick={handleClick}>Test Clickable Button</Button>                  
-        </div>          
-        </CardContent>
-        <CardFooter>
-          <p>Test Footer</p>
-        </CardFooter>
-      </Card>
-      </div>
-    </div>    
-    
-  )
+      <div style={{ 
+          position: 'relative', 
+          width: '80%', // Adjust the width as needed
+          overflow: 'hidden', 
+          margin: '25px auto', // Center the container horizontally
+        }}>
+          <Image 
+            src="/reference.png"
+            alt="work illustration"
+            layout="responsive"
+            objectFit="cover"
+            width={2000}  // Use a large width value to fill the container
+            height={1000} // Set a fixed height to maintain the aspect ratio
+          />
+        </div>
+    </div>
+  </div>
+);
+
 }
-
-
