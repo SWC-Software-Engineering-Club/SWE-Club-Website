@@ -8,15 +8,9 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 import { ModeToggle } from "./ui/mode-toggle";
 
 const Navbar = () => {
-  const { theme, setTheme } = useTheme();
-
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
 
   return (
     <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
