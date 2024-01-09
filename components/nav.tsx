@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Logo  from '@/components/ui/logo'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,7 +13,12 @@ const Navbar = () => {
     return ( 
       <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
        <div>
-        SWE Club
+       <Logo
+        altText="Logo Alt Text"
+        size="small"
+        rounded="default"
+        className="my-custom-class"
+      />
        </div>
        <DropdownMenu>
         <DropdownMenuTrigger asChild>
