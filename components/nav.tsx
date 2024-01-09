@@ -1,6 +1,5 @@
-"use client"
-
 import { Button } from "@/components/ui/button";
+import Logo from "@/components/ui/logo";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,25 +11,30 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { ModeToggle } from "./ui/mode-toggle";
 
-
-
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-  
+
   return (
-    <nav className="w-full p-6 flex fixed justify-between items-center border-b shadow-sm">
-      <div>SWE Club</div>
+    <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
+      <div>
+        <Logo
+          altText="Logo Alt Text"
+          size="small"
+          rounded="default"
+          className="my-custom-class"
+        />
+      </div>
       <div className="flex items-center gap-4">
         <ModeToggle />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline">Menu</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56">
+          <DropdownMenuContent className="w-56 ">
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <Link href="/">Home</Link>
