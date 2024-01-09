@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { Button } from '@/components/ui/button'
+import Logo  from '@/components/ui/logo'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,10 +10,17 @@ import {
 import Link from "next/link";
 
 const Navbar = () => {
-  return (
-    <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
-      <div>SWE Club</div>
-      <DropdownMenu>
+    return ( 
+      <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
+       <div>
+       <Logo
+        altText="Logo Alt Text"
+        size="small"
+        rounded="default"
+        className="my-custom-class"
+      />
+       </div>
+       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline">Menu</Button>
         </DropdownMenuTrigger>
