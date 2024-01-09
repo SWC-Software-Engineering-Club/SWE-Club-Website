@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
+    <nav className="z-[99991] w-full p-6 flex fixed justify-between border-b shadow-sm bg-white">
       <div>SWE Club</div>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
