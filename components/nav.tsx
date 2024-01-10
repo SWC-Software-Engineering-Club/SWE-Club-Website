@@ -26,7 +26,7 @@ const Navbar = () => {
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56 ">
           <DropdownMenuGroup>
-          <DropdownMenuItem><Link href="/">Home</Link></DropdownMenuItem>            
+            <DropdownMenuItem><Link href="/">Home</Link></DropdownMenuItem>            
             <DropdownMenuItem><Link href="/club-directory">Club Directory</Link></DropdownMenuItem>
             <DropdownMenuItem><Link href="/signup">Signup</Link></DropdownMenuItem>
             <DropdownMenuItem><Link href="/blogs">Blogs</Link></DropdownMenuItem>
