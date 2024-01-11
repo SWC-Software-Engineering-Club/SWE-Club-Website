@@ -9,11 +9,14 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
 import { ModeToggle } from "./ui/mode-toggle";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
 
   return (
-    <nav className="w-full p-6 flex fixed justify-between border-b shadow-sm">
+    <nav className={cn(
+      "z-[99999] w-full p-6 flex fixed justify-between border-b shadow-sm bg-background",
+      )}>
       <div>
         <Logo
           altText="Logo Alt Text"
