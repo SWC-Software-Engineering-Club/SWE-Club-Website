@@ -30,7 +30,7 @@ const TestimonialsCard = () => {
   return (
     <>
     {clubTestimonials.map((member) => (
-       <div>
+       <div key={member.name}>
       <Card className="justify-items-start">
         <CardHeader>
             <Avatar>
