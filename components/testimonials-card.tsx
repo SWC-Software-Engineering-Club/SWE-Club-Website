@@ -31,13 +31,13 @@ const TestimonialsCard = () => {
     <>
     {clubTestimonials.map((member) => (
        <div key={member.name}>
-      <Card className="justify-items-start">
+      <Card className="flex flex-col items-start justify-star text-left">
         <CardHeader>
-            <Avatar>
+            <Avatar className="mb-2">
             <AvatarImage src="https://github.com/shadcn.png" />
             </Avatar>
-          <CardTitle>{member.name}</CardTitle>
-          <CardDescription>{member.role}</CardDescription>
+          <CardTitle >{member.name}</CardTitle>
+          <CardDescription className="text-bold text-neutral-400">{member.role}</CardDescription>
         </CardHeader>
         <CardContent>
           <p className="max-w-[400px]">{member.testimonial}</p>
