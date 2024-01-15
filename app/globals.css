@@ -74,3 +74,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.hero-content{
+  padding: 48px;
+  box-sizing: border-box;
+  margin: 0;
+  z-index: 0;
+}
+
