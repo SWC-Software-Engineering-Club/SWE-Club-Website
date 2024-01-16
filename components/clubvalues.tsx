@@ -2,7 +2,7 @@ import ClubValuesCard from "./clubvalues-card";
 
 const ClubValues = () => {
   return ( 
-    <div className="max-w-screen-lg"> 
+    <div className="max-w-screen-lg" style={{ maxWidth: "1500px" }}>
     <h1 className="my-28 text-3xl font-medium text-left">Club Values</h1>
     <ClubValuesCard />
     </div>
