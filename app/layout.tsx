@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 const poppins = Poppins({ 
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400"],   
+  weight: ["100", "200", "300", "400","500","600"],   
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body className={poppins.className}>
         <ThemeProvider
           attribute="class"
