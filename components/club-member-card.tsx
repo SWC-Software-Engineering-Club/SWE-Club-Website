@@ -12,7 +12,7 @@ const ClubMemberCard = ({ clubMemberContent }: ClubMemberCardProps) => {
   return (
     <>
       {clubMemberContent?.map((member) => (
-        <div className="flex flex-col w-40 mb-16">
+        <div key={member.name} className="flex flex-col w-40 mb-16">
           <Image 
             src={member.image}
             alt="member photo"
