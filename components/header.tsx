@@ -9,11 +9,11 @@ const Header = () => {
 
   return (
     <div className="flex flex-col items-center mb-24 mt-40">
-      <span>Software Engineering Club</span>
-      <h1 className="text-5xl font-bold my-6 w-auto">
+      <span className="text-base text-neutral-800 dark:text-neutral-400">Software Engineering Club</span>
+      <h1 className="text-6xl font-bold my-4 w-1/2 tracking-tight leading-tight">
         Where CS Students of Southwestern College get ahead.
       </h1>
-      <h3 className="text-xl font-regular">
+      <h3 className="text-xl text-neutral-800 dark:text-neutral-300 font-regular mb-8 w-1/3">
         Where SWC CS students can network, gain hands-on experience, and get
         ahead.
       </h3>
