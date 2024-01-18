@@ -24,9 +24,9 @@ const ClubValuesCard = () => {
         <div key={index} className="flex flex-col flex-1">
           <div key={index} className="flex justify-between">
           <h2 className="text-2xl mr-64 text-left">{member.title}</h2>
-          <p className="text-2xl text-right ml-96  text-neutral-800 dark:text-neutral-600 translate-x-10">{member.description}</p>
+          <p className="text-2xl text-right text-neutral-800 dark:text-neutral-600">{member.description}</p>
           </div>
-          <hr className="border-2 my-36 max-w-6xl w-screen"  style={{ maxWidth: "96rem" }}></hr>
+          <hr className="border-2 my-36 max-w-6xl w-auto"  style={{ maxWidth: "96rem" }}></hr>
         </div>
       ))}
     </>
