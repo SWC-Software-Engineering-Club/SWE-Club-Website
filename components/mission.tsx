@@ -1,6 +1,6 @@
 const Mission = () => {
   return ( 
-    <div id="mission-statement" className="flex flex-col items-center mt-24 mb-10 relative max-w-5xl">
+    <div id="mission-statement" className="flex flex-col items-center my-24 relative max-w-5xl">
       <img src="/icon-light.svg" alt="Mission Icon" className="hidden dark:block"/>
       <img src="/icon-dark.svg" alt="Mission Icon" className="dark:hidden"/>        
       <h3 className="my-6 text-4xl font-bold">Our Mission</h3>    
