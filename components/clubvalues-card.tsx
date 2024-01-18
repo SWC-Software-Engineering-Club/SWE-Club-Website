@@ -26,7 +26,7 @@ const ClubValuesCard = () => {
           <h2 className="text-2xl mr-64 text-left">{member.title}</h2>
           <p className="text-2xl text-right text-neutral-800 dark:text-neutral-600">{member.description}</p>
           </div>
-          <hr className="border-2 my-36 max-w-6xl w-auto"  style={{ maxWidth: "96rem" }}></hr>
+          <hr className="border-2 my-36 w-auto"></hr>
         </div>
       ))}
     </>
