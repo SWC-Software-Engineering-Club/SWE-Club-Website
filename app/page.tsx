@@ -1,6 +1,8 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import Testimonials from "@/components/testimonials";
 import Mission from "@/components/mission";
+import ClubValues from "@/components/clubvalues";
 
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Mission />
+      <ClubValues />
+      <Testimonials />      
     </div>
   );
 }
