@@ -3,10 +3,11 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/nav";
 import { ThemeProvider } from "@/components/theme-provider";
+import Footer from '@/components/footer';
 
 const poppins = Poppins({ 
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400"],   
+  weight: ["100", "200", "300", "400","500","600"],   
 });
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body className={poppins.className}>
         <ThemeProvider
           attribute="class"
@@ -32,8 +33,9 @@ export default function RootLayout({
             <Navbar />
             {children}
           </main>
-        </ThemeProvider>
-      </body>
+          <Footer />
+        </ThemeProvider>        
+      </body>      
     </html>
   );
 }
