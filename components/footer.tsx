@@ -78,7 +78,7 @@ const Footer = () => {
         alt="background gradient"
         width={2000}
         height={2000}
-        className="absolute bottom-0 left-0 right-0"
+        className="absolute bottom-0 left-0 right-0 w-full"
         style={{ zIndex: -1 }}
       />
     </footer>
