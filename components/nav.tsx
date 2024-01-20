@@ -20,7 +20,7 @@ const Navbar = () => {
       <div>
         <Logo
           altText="Logo Alt Text"
-          size="small"
+          size="large"
           rounded="default"
           className="my-custom-class"
         />
