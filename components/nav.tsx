@@ -19,10 +19,8 @@ const Navbar = () => {
       )}>
       <div>
         <Logo
-          altText="Logo Alt Text"
-          size="large"
-          rounded="default"
-          className="my-custom-class"
+          altText="Logo"
+          className="w-1/4 h-full object-cover rounded-full"       
         />
       </div>
       <div className="flex items-center gap-4">
@@ -52,5 +50,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
