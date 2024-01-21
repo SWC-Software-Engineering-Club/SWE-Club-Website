@@ -1,5 +1,7 @@
 "use client";
+
 import { Button } from "./ui/button";
+import { motion } from "framer-motion"
 
 const Header = () => {
   const handleClick = () => {
@@ -8,7 +10,14 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-col items-center mb-24 mt-40">
+    <motion.div 
+      className="flex flex-col items-center mb-24 mt-40"
+      initial={{ y: 25, opacity: 0}}
+      animate={{ y:0, opacity: 1}}
+      transition={{
+        duration: 1,
+      }}
+    >
       <span className="text-base text-neutral-800 dark:text-neutral-400">Software Engineering Club</span>
       <h1 className="text-6xl font-bold my-4 w-1/2 tracking-tight leading-tight">
         Where CS Students of Southwestern College get ahead.
@@ -24,7 +33,7 @@ const Header = () => {
           About Us
         </Button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
