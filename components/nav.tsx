@@ -20,7 +20,7 @@ const Navbar = () => {
       <div>
         <Logo
           altText="Logo"
-          className="w-1/4 h-full object-cover rounded-full"       
+          className="w-1/5 h-full object-cover rounded-full"       
         />
       </div>
       <div className="flex items-center gap-4">
