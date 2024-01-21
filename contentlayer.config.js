@@ -5,15 +5,11 @@ const ComputedFields = {
     type: 'string',
     resolve: (doc) => `/${doc._raw.flattenedPath}`,
     },
-    image: {
-    type: "string",
-    resolve: (doc) => `/blog/${getSlug(doc)}/image.png`,
-    },
     slugAsParams: {
     type: 'string',
     resolve: (doc) => doc._raw.flattenedPath.split('/').slice(1).join(),
     },
-  }
+}
 
 const Blog = defineDocumentType(() => ({
   name: 'Blog',
@@ -35,7 +31,6 @@ const Blog = defineDocumentType(() => ({
 }}));
 
 export default makeSource({
-  /* options */
   contentDirPath: 'content',
   documentType: [Blog],
 });
