@@ -23,13 +23,13 @@ const Navbar = () => {
           className="w-1/5 h-full object-cover rounded-full"       
         />
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 mr-10">
         <ModeToggle />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline">Menu</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56 ">
+          <DropdownMenuContent className="w-56 mr-16">
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <Link href="/">Home</Link>
