@@ -29,7 +29,7 @@ const Navbar = () => {
           <DropdownMenuTrigger asChild>
             <Button variant="outline">Menu</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56">
+          <DropdownMenuContent className="w-56 mr-16">
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <Link href="/">Home</Link>
