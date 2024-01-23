@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth hide-scrollbar">
       <body className={poppins.className}>
         <ThemeProvider
           attribute="class"
