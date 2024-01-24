@@ -14,7 +14,7 @@ const BlogCard = ({ blogContent }: BlogCardProps) => {
     <>
       {blogContent?.map((content) => (
         <Link href="/">
-          <div className="flex flex-col">
+          <div key={content.title} className="flex flex-col">
             <Image
               src={content.image}
               alt="blog image"
