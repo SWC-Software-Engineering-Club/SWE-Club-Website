@@ -22,7 +22,7 @@ const linkData = [
 
 const LinkHubUi = () => {
     return ( 
-        <div className="flex flex-col gap-y-8 items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center">
             <div>
                 <Logo 
                   altText="Logo"
@@ -30,7 +30,7 @@ const LinkHubUi = () => {
                 />
             </div>
             <div>
-                <h1 className="font-bold">
+                <h1 className="mb-6 font-bold">
                     Southwestern College <br/>
                     Software Engineering Club
                 </h1>

@@ -15,7 +15,7 @@ const LinkHubItem = ({ data }: LinkHubUiProps) => {
           <Link
             href={elem.route}
             key={elem.title}
-            className="border py-4 px-20 rounded-xl mb-8 hover:bg-neutral-200 transition"
+            className="border py-2 px-20 rounded-xl mb-8 hover:bg-neutral-200 transition"
           >
             {elem.title}
           </Link>
