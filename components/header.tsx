@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
     <>
-      <div className="relative">
-        <div className="z-50 flex flex-col items-center mb-24 mt-40">
+      <div className="relative w-full">
+        <div className="!z-50 flex flex-col items-center mb-64 mt-96">
           <span className="text-base text-neutral-800 dark:text-neutral-400">
             Software Engineering Club
           </span>
@@ -29,13 +29,14 @@ const Header = () => {
             </Button>
           </div>
         </div>
-        <Image
-          src="/hero-bg.png"
-          alt="background image"
-          className="absolute top-0 left-0 bottom-0 right-0"
-          width={2000}
-          height={2000}
-        />
+        <div className="!z-0">
+          <Image
+            src="/hero-bg.png"
+            alt="background image"
+            className="absolute top-0 left-0 bottom-0 right-0 mt-30"
+            fill
+          />
+        </div>
       </div>
     </>
   );
