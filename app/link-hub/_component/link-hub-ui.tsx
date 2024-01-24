@@ -1,22 +1,33 @@
 import Logo from "@/components/ui/logo";
 import LinkHubItem from "./link-hub-item";
+import { ChevronDown, Instagram, Linkedin, MessageCircleCode, MousePointer2, UserPlus } from "lucide-react";
+
 
 const linkData = [
   {
     title: "Club Website",
     route: "/",
+    icon: MousePointer2
   },
   {
     title: "Join the club",
     route: "/signup",
+    icon: UserPlus
+  },
+  {
+    title: "Discord",
+    route: "/",
+    icon: MessageCircleCode
   },
   {
     title: "Instagram",
     route: "/",
+    icon: Instagram
   },
   {
     title: "LinkedIn",
     route: "/",
+    icon: Linkedin
   },
 ];
 
