@@ -1,3 +1,5 @@
+"use client";
+
 import { Poppins } from "next/font/google";
 import "../(main)/globals.css";
 import { ThemeProvider } from "next-themes";
@@ -11,9 +13,14 @@ const LinkHubLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className="!scroll-smooth hide-scrollbar">
       <body className={poppins.className}>
-        
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <main className="max-w-10xl mx-auto">{children}</main>
-        
+        </ThemeProvider>
       </body>
     </html>
   );

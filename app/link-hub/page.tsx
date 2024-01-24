@@ -1,5 +1,3 @@
-"use-client";
-
 import LinkHubUi from "./_component/link-hub-ui";
 
 const LinkHubPage = () => {
@@ -8,11 +6,10 @@ const LinkHubPage = () => {
       <LinkHubUi />
       <div className="absolute bottom-0 text-xs text-center mb-28 px-6">
         <span>
-        © {new Date().getFullYear()} Southwestern College Software Engineering
-        Club. All rights reserved.
-      </span>
+          © {new Date().getFullYear()} Southwestern College Software Engineering
+          Club. All rights reserved.
+        </span>
       </div>
-      
     </div>
   );
 };
