@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-full m-auto overflow-hidden" style={{ width: "100%", maxWidth: "4000px" }}>
+    <div
+      className="w-full m-auto overflow-hidden"
+      style={{ width: "100%", maxWidth: "4000px" }}
+    >
       <div className="relative" style={{ width: "100%", paddingTop: "50%" }}>
         <Image
           src="/reference.png"
