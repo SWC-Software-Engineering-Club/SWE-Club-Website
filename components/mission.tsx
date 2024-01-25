@@ -27,7 +27,7 @@ const Mission = () => {
         animate={mainControls}
         transition={{
           duration: 1,
-          delay: 0.25
+          delay: 0.30
         }}
       >
         <div
