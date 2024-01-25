@@ -58,9 +58,9 @@ const TestimonialsCard = () => {
         opts={{
           align: "start",
         }}
-        className=""
+        className="max-w-xs md:max-w-lg lg:max-w-5xl"
       >
-        <CarouselContent className="max-w-sm md:max-w-lg lg:max-w-5xl">
+        <CarouselContent>
           {clubTestimonials.map((member) => (
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <div key={member.name}>
