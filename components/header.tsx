@@ -10,15 +10,15 @@ const Header = () => {
 
   return (
     <>
-      <div className="relative w-full">
-        <div className="!z-50 flex flex-col items-center mb-64 mt-96">
+      <div className="relative w-full px-8">
+        <div className="!z-50 flex flex-col items-center m-auto mb-40 mt-60 max-w-3xl">
           <span className="text-base text-neutral-800 dark:text-neutral-400">
             Software Engineering Club
           </span>
-          <h1 className="text-6xl font-bold my-4 w-1/2 tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold my-4 tracking-tight leading-tight">
             Where CS Students of Southwestern College get ahead.
           </h1>
-          <h3 className="text-xl text-neutral-800 dark:text-neutral-300 font-regular mb-8 w-1/3">
+          <h3 className="text-lg md:text-xl text-neutral-800 dark:text-neutral-300 font-regular mb-8">
             Where SWC CS students can network, gain hands-on experience, and get
             ahead.
           </h3>
@@ -29,7 +29,7 @@ const Header = () => {
             </Button>
           </div>
         </div>
-        <div className="!z-0">
+        <div className="!z-0 hidden">
           <Image
             src="/hero-bg.png"
             alt="background image"
