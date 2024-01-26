@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <div className="relative w-full px-8">
-        <div className="!z-50 flex flex-col items-center m-auto mb-40 mt-60 max-w-3xl">
+        <div className="!z-50 flex flex-col items-center m-auto mb-40 mt-40 max-w-3xl">
           <span className="text-base text-neutral-800 dark:text-neutral-400">
             Software Engineering Club
           </span>
