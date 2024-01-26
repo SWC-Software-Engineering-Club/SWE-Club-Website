@@ -12,16 +12,16 @@ import { ModeToggle } from "./ui/mode-toggle";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
-  
-
   return (
-    <nav className={cn(
-      "z-[99999] w-full p-6 flex fixed justify-between border-b shadow-sm bg-background",
-      )}>
+    <nav
+      className={cn(
+        "z-[99999] w-full p-6 flex fixed justify-between border-b shadow-sm bg-background"
+      )}
+    >
       <div>
         <Logo
           altText="Logo"
-          className="w-12 md:w-20 h-full object-cover rounded-full"       
+          className="w-12 md:w-20 h-full object-cover rounded-full"
         />
       </div>
       <div className="flex items-center gap-4">
@@ -33,16 +33,16 @@ const Navbar = () => {
           <DropdownMenuContent className="w-56 mr-6">
             <DropdownMenuGroup>
               <DropdownMenuItem>
-                Home
+                <Link href="/">Home</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                Club Directory
+                <Link href="/club-directory">Club Directory</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-               Signup
+                <Link href="https://forms.gle/CddHLZ9wbhydApjE9" target="_blank">Signup</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                Blogs
+                <Link href="/blogs">Blogs</Link>
               </DropdownMenuItem>
             </DropdownMenuGroup>
           </DropdownMenuContent>
