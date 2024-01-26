@@ -12,6 +12,7 @@ import { ModeToggle } from "./ui/mode-toggle";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
+  
 
   return (
     <nav className={cn(
@@ -32,16 +33,16 @@ const Navbar = () => {
           <DropdownMenuContent className="w-56 mr-6">
             <DropdownMenuGroup>
               <DropdownMenuItem>
-                <Link href="/">Home</Link>
+                Home
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="/club-directory">Club Directory</Link>
+                Club Directory
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="/signup">Signup</Link>
+               Signup
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="/blogs">Blogs</Link>
+                Blogs
               </DropdownMenuItem>
             </DropdownMenuGroup>
           </DropdownMenuContent>
