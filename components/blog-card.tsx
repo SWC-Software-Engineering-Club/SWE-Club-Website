@@ -3,6 +3,7 @@ import Link from "next/link";
 
 interface BlogCardProps {
   blogContent: {
+    id: number;
     title: string;
     image: string;
     datePublished: string;
@@ -14,8 +15,8 @@ const BlogCard = ({ blogContent }: BlogCardProps) => {
     <>
       <div className="flex flex-col md:flex-row gap-x-12">
         {blogContent?.map((content) => (
-          <Link href="/">
-            <div key={content.title} className="flex flex-col mb-12">
+          <Link key={content.id} href="/">
+            <div className="flex flex-col mb-12">
               <Image
                 src={content.image}
                 alt="blog image"

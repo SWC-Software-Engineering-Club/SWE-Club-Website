@@ -6,7 +6,7 @@ const Testimonials = () => {
       <div className="p-12">
         <h3 className="text-3xl font-medium">Club Testimonials</h3>
       </div>
-      <div className="m-auto w-5/6">
+      <div className="flex items-center justify-center m-auto w-5/6">
         <TestimonialsCard />
       </div>
     </div>

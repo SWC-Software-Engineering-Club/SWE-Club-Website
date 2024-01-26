@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
@@ -23,7 +24,10 @@ const Header = () => {
             ahead.
           </h3>
           <div className="flex gap-4">
-            <Button>Apply</Button>
+            <Link href="https://forms.gle/CddHLZ9wbhydApjE9" target="_blank">
+              <Button>Apply</Button>
+            </Link>
+
             <Button variant="outline" onClick={handleClick}>
               About Us
             </Button>

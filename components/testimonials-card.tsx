@@ -20,30 +20,35 @@ import {
 
 const clubTestimonials = [
   {
+    id: 1,
     name: "Luis",
     role: "Developer",
     testimonial:
       "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
   },
   {
+    id: 2,
     name: "Adrian",
     role: "Developer",
     testimonial:
       "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
   },
   {
+    id: 3,
     name: "Vinnie",
     role: "Developer",
     testimonial:
       "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
   },
   {
+    id: 4,
     name: "Anthony",
     role: "Developer",
     testimonial:
       "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
   },
   {
+    id: 5,
     name: "Kelvin",
     role: "Developer",
     testimonial:
@@ -62,7 +67,7 @@ const TestimonialsCard = () => {
       >
         <CarouselContent>
           {clubTestimonials.map((member) => (
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+            <CarouselItem key={member.id} className="md:basis-1/2 lg:basis-1/3">
               <div key={member.name}>
                 <Card className="flex flex-col items-start justify-start text-left">
                   <CardHeader>
