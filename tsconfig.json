@@ -19,9 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*", "./.contentlayer/generated"] // added "./.contentlayer/generated" to clarify this packages path
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".contentlayer/generated"], // added ".contentlayer/generated" includes all files in the .contentlayer/generated directory.
   "exclude": ["node_modules"]
 }
