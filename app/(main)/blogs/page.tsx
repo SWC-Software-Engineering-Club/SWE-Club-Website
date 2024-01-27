@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 // dummy blog content
 const BlogContent = [
   {
+    id: 1,
     title: "How to stand out as CS major",
     image: "/blog-image-1.png",
     datePublished: "Dec 23, 2023"
   },
   {
+    id: 2,
     title: "How to stand out as CS major",
     image: "/blog-image-1.png",
     datePublished: "Dec 23, 2023"
