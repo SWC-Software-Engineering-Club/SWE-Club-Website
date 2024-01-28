@@ -6,13 +6,13 @@ import Image from "next/image";
 const Header = () => {
   const handleClick = () => {
     const missionSection = document.getElementById("mission-statement");
-    missionSection?.scrollIntoView();
+    missionSection?.scrollIntoView({ block: "center" });
   };
 
   return (
     <>
       <div className="relative w-full px-8">
-        <div className="!z-50 flex flex-col items-center m-auto mb-40 mt-40 max-w-3xl">
+        <div className="!z-50 flex flex-col items-center m-auto mb-40 mt-40 md:mt-60 max-w-3xl">
           <span className="text-base text-neutral-800 dark:text-neutral-400">
             Software Engineering Club
           </span>
