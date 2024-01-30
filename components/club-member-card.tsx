@@ -16,9 +16,9 @@ const ClubMemberCard = ({ clubMemberContent }: ClubMemberCardProps) => {
           <Image 
             src={member.image}
             alt="member photo"
-            width={240}
-            height={240}
-            className="rounded-sm"
+            width={200}
+            height={200}
+            className="rounded-sm w-40 h-44"
           />
           <div className="font-medium mt-4">{member.name}</div>
           <div className="text-sm font-semibold text-neutral-500">{member.role}</div>
