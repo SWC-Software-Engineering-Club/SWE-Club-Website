@@ -1,21 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface BlogCardProps {
-  blogContent: {
-    id: number;
-    title: string;
-    image: string;
-    datePublished: string;
-  }[];
-}
+import { allDocuments as allDocs } from "@/.contentlayer/generated";
 
-const BlogCard = ({ blogContent }: BlogCardProps) => {
+
+const BlogCard = () => {
+  const blogs = allDocs;
+
   return (
     <>
       <div className="flex flex-col md:flex-row gap-x-12">
-        {blogContent?.map((content) => (
-          <Link key={content.id} href="/">
+        {blogs?.map((content) => (
+          <Link key={content.title} href={`blogs/article/${content?._raw.flattenedPath}`}>
             <div className="flex flex-col mb-12">
               <Image
                 src={content.image}

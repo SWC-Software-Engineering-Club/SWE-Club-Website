@@ -1,6 +1,7 @@
 import { makeSource, defineDocumentType, ComputedFields } from "@contentlayer/source-files"; //needed to import ComputedFields from contentlayer
 // import rehypePrism from "rehype-prism-plus";
 import rehypeSlug from "rehype-slug";
+import rehypePrism from "rehype-prism-plus";
 
 const blogsComputedFields: ComputedFields = {
   slug: {
@@ -24,10 +25,15 @@ export const Blog = defineDocumentType(() => ({
     },
     description: {
       type: 'string',
+      required: true,
     },
-    published: {
-      type: 'boolean',
-      default: true,
+    datePublished: {
+      type: 'string',
+      required: true,
+    },
+    image: {
+      type: 'string',
+      required: true,
     },
   },
   computedFields: blogsComputedFields, // this computed fields was in the wrong line, moved to this correct line so object is formatted correctly.
@@ -37,6 +43,6 @@ export default makeSource({
   contentDirPath:'content',
   documentTypes: [Blog], //bug here... was documentType should be -> documentTypes
   mdx: {
-    rehypePlugins: [rehypeSlug]
+    rehypePlugins: [rehypePrism, rehypeSlug]
   }
 });
