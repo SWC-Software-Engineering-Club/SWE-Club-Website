@@ -21,7 +21,12 @@ const ClubMemberContent = [
     image: "/mike.jpg",
     name: "Michael Castillo",
     role: "Developer"
-  }
+  },
+  {
+    image: "/yorneidis.jpg",
+    name: "Yorneidis Perera",
+    role: "UI UX"
+  },
 ]
 
 export default function ClubDirectory()
