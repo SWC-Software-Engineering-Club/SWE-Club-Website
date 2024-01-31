@@ -3,34 +3,29 @@ import ClubMemberCard from "@/components/club-member-card"
 // dummy club member content. best practice would be to move these business logic data to a constant file
 const ClubMemberContent = [
   {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
+    image: "/luis.jpg",
+    name: "Luis Hernandez",
     role: "Developer"
   },
   {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
+    image: "/adrianrojas.jpg",
+    name: "Adrian Rojas",
+    role: "Project Manager | Developer"
+  },
+  {
+    image: "/kelvin.png",
+    name: "Kelvin Ong",
     role: "Developer"
   },
   {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
+    image: "/mike.jpg",
+    name: "Michael Castillo",
     role: "Developer"
   },
   {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
-    role: "Developer"
-  },
-  {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
-    role: "Developer"
-  },
-  {
-    image: "/portrait.jpg",
-    name: "Alexander Codes",
-    role: "Developer"
+    image: "/yorneidis.jpg",
+    name: "Yorneidis Perera",
+    role: "UI UX"
   },
 ]
 
