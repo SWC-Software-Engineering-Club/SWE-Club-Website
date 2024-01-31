@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   const handleClick = () => {
     const missionSection = document.getElementById("mission-statement");
-    missionSection?.scrollIntoView();
+    missionSection?.scrollIntoView({ block: "center" });
   };
 
   return (

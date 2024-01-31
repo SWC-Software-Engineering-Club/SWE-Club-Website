@@ -35,17 +35,17 @@ const Footer = () => {
     <footer className="relative p-8">
       <div className="flex flex-col !z-50">
         <div className="pb-8">
-          <span className="font-bold text-neutral-600 dark:text-neutral-500">
+          <span className="text-sm font-bold text-neutral-600 dark:text-neutral-500">
             SOUTHWESTERN COLLEGE
           </span>
         </div>
         <div>
-          <h2 className="text-5xl max-w-md font-bold pb-6">
+          <h2 className="text-4xl md:text-5xl max-w-md font-bold pb-6">
             Software Engineering Club
           </h2>
         </div>
         <div>
-          <p className="text-xl max-w-xl pb-6">
+          <p className="md:text-xl max-w-xl pb-6">
             Where CS Students of Southwestern College can get ahead by gaining
             real world experience.
           </p>
@@ -53,14 +53,14 @@ const Footer = () => {
         <div className="flex pb-24">
           <div className="flex flex-col gap-y-4">
             {FooterLinks.map((link) => (
-              <a key={link.title} href={link.link} className="pr-4 font-semibold text-neutral-800 dark:text-neutral-200">
+              <a key={link.title} href={link.link} className="pr-4 text-sm font-semibold text-neutral-800 dark:text-neutral-200">
                 {link.title}
               </a>
             ))}
           </div>
           <div className="flex flex-col gap-y-4 ml-24">
             {FooterSocials.map((link) => (
-              <a key={link.title} href={link.link} className="font-semibold text-neutral-800 dark:text-neutral-200">
+              <a key={link.title} href={link.link} className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                 {link.title}
               </a>
             ))}

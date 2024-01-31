@@ -8,9 +8,13 @@ const ClubValuesCardInfo = [
     title: "Skill Development",
     description:
       "Provide members with opportunities to enhance their technical skills through hands-on projects, workshops, and coding challenges.",
+    description:
+      "Provide members with opportunities to enhance their technical skills through hands-on projects, workshops, and coding challenges.",
   },
   {
     title: "Collaboration and Networking",
+    description:
+      "Facilitate a platform for students to connect, collaborate, and learn from each other.",
     description:
       "Facilitate a platform for students to connect, collaborate, and learn from each other.",
   },
@@ -18,9 +22,13 @@ const ClubValuesCardInfo = [
     title: "Professional Growth",
     description:
       "Provide resources and support for members seeking internships, co-op opportunities, and full-time positions.",
+    description:
+      "Provide resources and support for members seeking internships, co-op opportunities, and full-time positions.",
   },
   {
     title: "Inclusivity and Diversity",
+    description:
+      "Foster an environment that welcomes students from all backgrounds, experiences, and skill levels, ensuring that everyone feels valued and supported.",
     description:
       "Foster an environment that welcomes students from all backgrounds, experiences, and skill levels, ensuring that everyone feels valued and supported.",
   },

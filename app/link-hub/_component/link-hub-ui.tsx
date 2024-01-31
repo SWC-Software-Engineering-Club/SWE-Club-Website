@@ -11,7 +11,7 @@ const linkData = [
   },
   {
     title: "Join the club",
-    route: "/signup",
+    route: "https://forms.gle/CddHLZ9wbhydApjE9",
     icon: UserPlus
   },
   {

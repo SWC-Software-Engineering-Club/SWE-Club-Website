@@ -2,6 +2,7 @@ import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 interface LogoProps
   extends React.HTMLAttributes<HTMLDivElement>,
@@ -42,15 +43,19 @@ const Logo: React.FC<LogoProps> = ({
         className={cn(logoVariants({ size, rounded, className }))}
         {...props}
       >
-        <img
+        <Image
           src="/logo-dark.png"
           alt={altText}
           className="w-full h-full object-cover rounded-full hidden dark:block"
+          width={50}
+          height={50}
         />
-        <img
+        <Image
           src="/logo-light.png"
           alt={altText}
           className="w-full h-full object-cover rounded-full dark:hidden"
+          width={50}
+          height={50}
         />
       </div>
     </Link>
