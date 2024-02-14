@@ -16,19 +16,19 @@ const linkData = [
   },
   {
     title: "Discord",
-    route: "/",
+    route: "https://discord.gg/FcJkRhY2",
     icon: MessageCircleCode
   },
-  {
-    title: "Instagram",
-    route: "/",
-    icon: Instagram
-  },
-  {
-    title: "LinkedIn",
-    route: "/",
-    icon: Linkedin
-  },
+  // {
+  //   title: "Instagram",
+  //   route: "/",
+  //   icon: Instagram
+  // },
+  // {
+  //   title: "LinkedIn",
+  //   route: "/",
+  //   icon: Linkedin
+  // },
 ];
 
 const LinkHubUi = () => {
