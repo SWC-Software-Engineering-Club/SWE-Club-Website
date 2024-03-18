@@ -24,7 +24,7 @@ const clubTestimonials = [
     name: "Luis",
     role: "Developer",
     testimonial:
-      "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
+      "Hello, my name is Luis Hernandez, my ambition drives me forward in the field of software engineering, particularly in game development. Passion and my pursuit of development and software in general, I am ambitious in every project I undertake. I also have tenacity and resilience in facing challenges head-on. I leverage productive qualities and a creative mindset to contribute meaningfully to any team. I believe I am poised to make a significant impact in the world of software engineering and game development and that is my main ambition in computer science.",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const clubTestimonials = [
     name: "Kelvin",
     role: "Developer",
     testimonial:
-      "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
+      "Working on the web dev team as a beginner with almost no knowledge on web development has been a knowledgeable experience that helped build my programming skills as well as my teamwork and communication skills.",
   },
 ];
 
