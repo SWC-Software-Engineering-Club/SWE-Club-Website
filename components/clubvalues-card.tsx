@@ -27,7 +27,7 @@ const ClubValuesCard = () => {
       {ClubValuesCardInfo.map((member, index) => (
         <div key={index} className="flex flex-col md:flex-1">
           <div key={index} className="flex flex-col md:flex-row justify-between">
-            <h2 className="text-lg md:text-2xl md:mr-64 text-left mb-8 md:m-0 text-neutral-300">{member.title}</h2>
+            <h2 className="text-lg md:text-2xl md:mr-64 text-left mb-8 md:m-0 text-neutral-900 dark:text-neutral-100">{member.title}</h2>
             <p className="w-full md:w-1/2 text-md md:text-2xl text-left md:text-right text-neutral-500 dark:text-neutral-600">
               {member.description}
             </p>
