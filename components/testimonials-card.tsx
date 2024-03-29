@@ -24,28 +24,28 @@ const clubTestimonials = [
     name: "Luis",
     role: "Developer",
     testimonial:
-      "Hello, my name is Luis Hernandez, my ambition drives me forward in the field of software engineering, particularly in game development. Passion and my pursuit of development and software in general, I am ambitious in every project I undertake. I also have tenacity and resilience in facing challenges head-on. I leverage productive qualities and a creative mindset to contribute meaningfully to any team. I believe I am poised to make a significant impact in the world of software engineering and game development and that is my main ambition in computer science.",
+      "Throughout my experience in the club, I've met a lot of friendly faces and people who share similar passions as I do.Not only have I learned how working in a team is like, but I have also learned a lot about how programming is used to solve problems.",
   },
   {
     id: 2,
     name: "Adrian",
     role: "Developer",
     testimonial:
-      "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
+      "During my time as part of the 2023 winter web development team I realized how shallow my knowledge of computer science as a whole was. This opened my eyes and allowed me to take my role as Project manager as serious as possible, acquiring as much experience as I could to further develop in the future. I am grateful for the team and for the opportunity",
   },
   {
     id: 3,
     name: "Vinnie",
     role: "Developer",
     testimonial:
-      "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
+      "My time with both the web development team and the club as a whole has been incredibly enriching. I learned so many new things and this club does a great job to replicate real industry programming practices while providing a safe atmosphere to experiment and grow yourself. This balance between real-world practices and a nurturing atmosphere is truly invaluable for anyone looking to pursue a career in software engineering.",
   },
   {
     id: 4,
     name: "Anthony",
     role: "Developer",
     testimonial:
-      "Et obcaecati dignissimos a molestias minus eum labore laudantium aut atque nesciunt qui quasi galisum sit necessitatibus possimus",
+      "This club has a ton of potential that I am excited to help cultivate with so many other passionate individuals. Being around like minded others makes being motivated much easier and longer lasting. Watching the website slowly unfold was neat to say the least and learning a whole new subject with a bunch of other helpful members was a great experience that reinforced the importance of soft skills.",
   },
   {
     id: 5,
