@@ -31,7 +31,7 @@ const clubTestimonials = [
     name: "Adrian",
     role: "Developer",
     testimonial:
-      "During my time as part of the 2023 winter web development team I realized how shallow my knowledge of computer science as a whole was. This opened my eyes and allowed me to take my role as Project manager as serious as possible, acquiring as much experience as I could to further develop in the future. I am grateful for the team and for the opportunity",
+      "During my time as part of the 2023 winter web development team I realized how shallow my knowledge of computer science as a whole was, This opened my eyes and allowed me to take my role as Project manager as serious as possible, acquiring as much experience as I could to further develop in the future. I am grateful for the team and for the opportunity",
   },
   {
     id: 3,
