@@ -16,7 +16,7 @@ const linkData = [
   },
   {
     title: "Discord",
-    route: "https://discord.gg/FcJkRhY2",
+    route: "https://discord.gg/A3quvX5Q",
     icon: MessageCircleCode
   },
   // {
